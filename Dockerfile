@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir grpcio grpcio-tools protobuf
 EXPOSE 50051
 
 # Run the gRPC server
-CMD ["python", "app/server1.py"]  # <-- Update this if your file is inside `app/`
+ENTRYPOINT ["python3", "server1.py"]
