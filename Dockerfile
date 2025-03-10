@@ -1,9 +1,6 @@
 # Use an official Python runtime as a base image
 FROM python:3.10
 
-# Set the working directory inside the container
-WORKDIR /
-
 # Copy all files from the current directory to /app
 COPY . .
 
