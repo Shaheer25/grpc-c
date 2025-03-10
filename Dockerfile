@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir grpcio grpcio-tools protobuf
 EXPOSE 50051
 
 # Run the gRPC server
-ENTRYPOINT ["python3", "server1.py"]
+ENTRYPOINT ["python3", "app/server1.py"]
