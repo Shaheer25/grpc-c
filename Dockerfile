@@ -2,10 +2,10 @@
 FROM python:3.10
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /
 
 # Copy all files from the current directory to /app
-COPY . /app
+COPY . .
 
 # Install dependencies
 RUN pip install --no-cache-dir grpcio grpcio-tools protobuf
